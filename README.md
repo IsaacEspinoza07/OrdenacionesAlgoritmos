@@ -12,7 +12,7 @@ donde se ejecute puede marcar una gran diferencia; entre mejores componentes, me
 
 ## Archivos generados
 El programa creara 8 archivos distintos en la misma locacion donde se haya ejecutado el programa. Cada uno esta nombrado como 
-un algoritmo de ordenacion, por ejemplo, '1_Insercion_Ordenamiento' y son de tipo .csv __(Coma Separated Values)__. 
+un algoritmo de ordenacion, por ejemplo, '1_Insercion_Ordenamiento' y son de tipo .csv _(Coma Separated Values)_. 
 Dentro de este archivo se encontrara por columna el tamaño del arreglo ordenado, mientras
 que por renglon se encuentra el tiempo en **nanosegundos** de cuanto tardó en ejecutarse. Dentro del repositorio
 se encuentra un archivo tipo .xlsx donde se comparan todos los promedios en forma de gráfica.
