@@ -7,7 +7,7 @@ directamente desde la terminal.
 
 **Nota:** Para una comparación más precisa, es importante tener abierta la menor cantidad de programas posible, ya que
 de otro modo, las medidas de tiempo se pueden ver afectadas. Tambien es importante notar que la computadora
-donde se ejecute puede marcar una gran diferencia; entre mejores componentes, mejores resultados se obtendra.
+donde se ejecute puede marcar una gran diferencia; entre mejores componentes, mejores resultados se obtendran.
 
 
 ## Archivos generados
