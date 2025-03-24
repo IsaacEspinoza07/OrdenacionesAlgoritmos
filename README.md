@@ -11,11 +11,12 @@ donde se ejecute puede marcar una gran diferencia; entre mejores componentes, me
 
 
 ## Archivos generados
-El programa creara 8 archivos distintos en la misma locacion donde se haya ejecutado el programa. Cada uno esta nombrado como 
+El programa creara 8 archivos distintos en la misma locacion donde se haya ejecutado el programa. 7 de estos estan nombrados como 
 un algoritmo de ordenacion, por ejemplo, '1_Insercion_Ordenamiento' y son de tipo .csv _(Coma Separated Values)_. 
-Dentro de este archivo se encontrara por columna el tamaño del arreglo ordenado, mientras
-que por renglon se encuentra el tiempo en **nanosegundos** de cuanto tardó en ejecutarse. Dentro del repositorio
-se encuentra un archivo tipo .xlsx donde se comparan todos los promedios en forma de gráfica.
+Dentro de cada uno de estos archivos se encontrara por columna el tamaño del arreglo ordenado, mientras
+que por renglon se encuentra el tiempo en **nanosegundos** de cuanto tardó en ejecutarse. El octavo archivo es uno llamado 'Promedios.csv', en el cual
+se reunen los promedios de todos los algoritmos para una comparación más directa. Dentro del repositorio se encuentra un 
+archivo tipo .xlsx donde se comparan todos los promedios en forma de gráfica.
 
 
 
