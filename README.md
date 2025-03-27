@@ -16,6 +16,7 @@ g++ TiemposAlgoritmos.cpp -o TiemposAlgoritmos
 ```
 
 Despues, usar el siguiente comando para ejecutar el programa:
+
 ```
 .\TiemposAlgoritmos.exe
 ```
@@ -28,14 +29,51 @@ que por renglon se encuentra el tiempo en **nanosegundos** de cuanto tardó en e
 se reunen los promedios de todos los algoritmos para una comparación más directa. Dentro del repositorio se encuentra un 
 archivo tipo .xlsx donde se comparan todos los promedios en forma de gráfica.
 
+![image](https://github.com/user-attachments/assets/f832be32-2b10-4bae-985b-71a10027eda9)
+
+
 
 ## Descripcion de los algoritmos de ordenación
+### Burbuja
+
+### Selección
+
+### Inserción
+
+### Shell
+
+### Montículos
+
+### Mezcla (Merge Sort)
+
+### Mezcla rápida (Quick Sort)
+
+
+| Algoritmo de ordenación  | MEJOR CASO | CASO PROMEDIO | PEOR CASO  | ESPACIO ADICIONAL |
+|--------------------------|------------|---------------|------------|-------------------|
+|Burbuja                   |    $O(n)$  |    $O(n^2)$   | $O(n^2)$   |       $O(1)$      |
+|Selección                 |   $O(n^2)$ |    $O(n^2)$   | $O(n^2)$   |       $O(1)$      |
+|Inserción                 |    $O(n)$  |    $O(n^2)$   | $O(n^2)$   |       $O(1)$      |
+|Shell                     |    $O(n)$  |    $O(n^2)$   | $O(n^2)$   |       $O(1)$      |
+|Montículos (Heap Sort)    |$O(nlog(n))$|  $O(nlog(n))$ |$O(nlog(n))$|    $O(nlog(n))$   |
+|Mezcla (Merge Sort)       |$O(nlog(n))$|  $O(nlog(n))$ |$O(nlog(n))$|       $O(n)$      |
+|Mezcla rapida (Quick Sort)|  $O(n^2)$  |  $O(nlog(n))$ |$O(nlog(n))$|    $O(log(n))$    |
 
 ## Gráfica comparativa 
-![image](https://github.com/user-attachments/assets/26c4bcd3-546b-4f85-a618-6f60ac9c78b7)
-Esta grafica tiene en el eje 'x' el tamaño de los arreglos, y en el eje 'y' el tiempo de ejecución en nanosegundos.Podemos observar como
-los algoritmos menos eficientes son: Burbuja, Inserción, y Selección.
 
+![image](https://github.com/user-attachments/assets/26c4bcd3-546b-4f85-a618-6f60ac9c78b7)
+
+Esta es una gráfica comparativa. Aqui se puede ver claramente cuales algoritmos son menos eficientes, ya que entre mas pronunciada
+este la curva, significa que le demora mas nanosegundos en ordenar un arreglo de tamaño n.
+
+![image](https://github.com/user-attachments/assets/272a4a46-5829-458a-8bf2-1188ef0fa0d3)
+
+En esta otra gráfica, hacemos un acercamiento a las funciones de menor tiempo de ejecución para ver más claramente su comportamiento.
+Viendolo de cerca, se puede ver claramente como las gráficas de Incersion, Selección y Burbuja tienen una complejidad $n^2$, por lo tanto, entre
+más grande sea el arreglo más tardara, mientras que el resto de algoritmos crecen más lentamente.
+
+
+$[[1,2,3][3,2,1][4,5,6]]$
 
 ## Análisis de los resultados
 
