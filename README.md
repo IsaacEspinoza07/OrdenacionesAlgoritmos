@@ -1,14 +1,24 @@
 # OrdenacionesAlgoritmos
-A través de un programa en C++, se compara la velocidad de ejecución de 7 distintos algoritmos de ordenación. 
+A través de un programa en C++, se compara la velocidad de ejecución de 7 distintos algoritmos de ordenación
+al ordenar arreglos de tamaño 10, hasta tamaño 1000. El objetivo es observar y comparar los distintos tiempos de ejecución
+y asi, su efectividad.
 
-Para ejecutar el programa se puede abrir directamente el archivo 'TiemposAlgoritmos.exe', o bien, compilar y ejecutar
-directamente desde la terminal.
+## Requisitos del sistema
 
 
-**Nota:** Para una comparación más precisa, es importante tener abierta la menor cantidad de programas posible, ya que
-de otro modo, las medidas de tiempo se pueden ver afectadas. Tambien es importante notar que la computadora
-donde se ejecute puede marcar una gran diferencia; entre mejores componentes, mejores resultados se obtendran.
+## Compilación y ejecución
+Para ejecutar el programa, asegúrese de tener el archivo ```TiemposAlgoritmos.cpp``` en una carpeta.
+A través de la terminal, acceder a la carpeta donde se encuentre el archivo. Una vez ubicado ejecutar los siguientes comandos
+en la terminal para compilar el programa:
 
+```
+g++ TiemposAlgoritmos.cpp -o TiemposAlgoritmos
+```
+
+Despues, usar el siguiente comando para ejecutar el programa:
+```
+.\TiemposAlgoritmos.exe
+```
 
 ## Archivos generados
 El programa creara 8 archivos distintos en la misma locacion donde se haya ejecutado el programa. 7 de estos estan nombrados como 
@@ -17,6 +27,16 @@ Dentro de cada uno de estos archivos se encontrara por columna el tamaño del ar
 que por renglon se encuentra el tiempo en **nanosegundos** de cuanto tardó en ejecutarse. El octavo archivo es uno llamado 'Promedios.csv', en el cual
 se reunen los promedios de todos los algoritmos para una comparación más directa. Dentro del repositorio se encuentra un 
 archivo tipo .xlsx donde se comparan todos los promedios en forma de gráfica.
+
+
+## Descripcion de los algoritmos de ordenación
+
+## Gráfica comparativa 
+
+## Análisis de los resultados
+
+
+## Conclusiones
 
 
 
