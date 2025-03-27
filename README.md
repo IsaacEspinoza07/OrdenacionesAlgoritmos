@@ -32,6 +32,10 @@ archivo tipo .xlsx donde se comparan todos los promedios en forma de gráfica.
 ## Descripcion de los algoritmos de ordenación
 
 ## Gráfica comparativa 
+![image](https://github.com/user-attachments/assets/26c4bcd3-546b-4f85-a618-6f60ac9c78b7)
+Esta grafica tiene en el eje 'x' el tamaño de los arreglos, y en el eje 'y' el tiempo de ejecución en nanosegundos.Podemos observar como
+los algoritmos menos eficientes son: Burbuja, Inserción, y Selección.
+
 
 ## Análisis de los resultados
 
